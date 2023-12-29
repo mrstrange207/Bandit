@@ -53,9 +53,9 @@ Used grep command ( searches a particular pattern and displays the line its foun
 grep ‘millionth’ data.txt
 
 Level 8 to level 9
-Learned about piping
+Learned about piping ( giving output of one command as input of other
 Tired cat data.txt| uniq -c but failed as got to know uniq only search for unique  adjacent  to it
-Hence used sort for finding it
+Hence used sort for finding it as it sorts out and we can find count 1
 Sort data.txt | uniq -c
 
 Level 9 to level 10
@@ -64,11 +64,11 @@ Strings data.txt | grep ‘=’
 
 Level 10 to level 11
 Searched on google about base64 
-Decoded the file using base64 -d data.txt
+Decoded the file using base64 -d(decode) data.txt
 
 Level 11 to level 12
 Learned about rot13 through link given on level 11 to level 12 page
-Used tr to rotate 
+Used tr to translate that is rotate by rot13 logic 
 Cat data.txt | tr ‘A-Za-z’ ‘N-ZA-Mn-za-m’
   
 Level 12 to 13
@@ -92,13 +92,13 @@ Used cat and got password
 
 Level 13 to 14
 Used ls 
-Used ssh -i sshkey.private bandit14@localhost -p 2220 ( took reference from internet)
+Used ssh -i(identity file) sshkey.private(private key) bandit14@localhost -p 2220 ( took reference from internet)
 Used cat and got password
 
 Level 14 to 15
-Used telnet localhost 30000
+Used telnet (network protocol sends in plain text) localhost 30000
 Entered the password
 
 Level 15 to 16
-Used openssl s_client -connect localhost:30001 -ign_eof
+Used openssl (designed to transfer information) s_client -connect localhost:30001 -ign_eof (keeps connection open to read response)
 Entered the password
