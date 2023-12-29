@@ -13,16 +13,16 @@ Logged in into bandit1 using ssh command again using password in readme
 
 Level 1 to level 2
 Googled about dash command
-Used cat ./- to display the content in file - or can use < ( converts to string)
+Used cat ./- (specifying full location) to display the content in file - or can use < ( converts to string)
 
 Level 2 to level 3
-Used / before every file name after searching about it on google 
-Or use “”
+Used / (skips the spaces in file ) before every space in file name after searching about it on google 
+Or use “” (warapping it together)
 
 Level 3 to level 4
 Used ls to list directories 
 Then changed current directory to inhere
-Viewed the hidden file in inhere using -a command
+Viewed the hidden file in inhere using -a(used to see all present files even hidden) command
 ls
 cd inhere 
 ls -a
@@ -30,7 +30,7 @@ cat .hidden
 
 Level 4 to level 5
  
-Found file type using file ./*
+Found file type using file(used to display file type )./*(* all file)
 Found ascii text file
 Used Cat ./-file07 for showing password
 
@@ -44,12 +44,12 @@ By above 2 statement confirmed all 3 conditions
 
 
 Level 6 to level 7
- Googled for how to search in whole server 
-Used find / -size 33c -user bandit7 group bandit6
+Googled for how to search in whole server 
+Used find /(searches from the whole server) -size 33c -user bandit7 group bandit6
 Used cat /var/lib/dpkg/info/bandit7.password
 
 Level 7 to level 8
-Used grep command 
+Used grep command ( searches a particular pattern and displays the line its found in)
 grep ‘millionth’ data.txt
 
 Level 8 to level 9
